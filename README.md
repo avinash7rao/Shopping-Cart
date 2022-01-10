@@ -1,6 +1,6 @@
 # Simple Shopping Cart
 
-It is a Shopping Cart project that I worked on while completing a coding bootcamp through [Thinkful](https://www.thinkful.com/)
+It is a Shopping Cart project that I worked on while completing a coding bootcamp through [Thinkful](https://www.thinkful.com/).
 
 # Things I made use of:
 
