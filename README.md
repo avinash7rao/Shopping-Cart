@@ -4,7 +4,7 @@ It is a Shopping Cart project that I worked on while completing a coding bootcam
 
 # Things I made use of:
 
-* HTML5/CSS3/Bootstrap4
+* HTML5/CSS/Bootstrap
 * Javascript
 
 
