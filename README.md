@@ -2,7 +2,7 @@
 
 It is a Shopping Cart project that I worked on while completing a coding bootcamp through [Thinkful](https://www.thinkful.com/)
 
-# What things I made use of:
+# Things I made use of:
 
 * HTML5/CSS3/Bootstrap4
 * Javascript
