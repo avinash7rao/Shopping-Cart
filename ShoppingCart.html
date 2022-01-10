@@ -37,11 +37,11 @@
             </table>
         </div>
     </div>
-    <footer class='page-footer fixed-bottom' style='background-color: black;'>
-        <footer class='container px-2 pb-3'>
+    <footer class='page-footer fixed-bottom'>
+        <footer class='container px-5 py-5'>
             <div class='row font-medium text-light justify-content-arouond'>
                 <div class="col lead text-center">
-                    Tax 6%
+                    Tax 6%:
                 </div>
                 <div class="col lead text-center">
                     Cart Total: <span class="cart_total"></span>
@@ -88,7 +88,7 @@
             )
             {
                 $(this).parent().next().text(
-                    parseFloat(Number($(this).val()) * (( ( 6 / 100 ) * Number($(this).parent().prev().text()) ) +  Number($(this).parent().prev().text()))).toFixed(2)
+                    Number($(this).val()) * (( ( 6 / 100 ) * Number($(this).parent().prev().text()) ) +  Number($(this).parent().prev().text()))
                 );
             }
             else
@@ -96,13 +96,13 @@
                 $(this).parent().next().text(
                     Number($(this).val()) * Number($(this).parent().prev().text())
                 );
-            }S
+            }
 
             var cart_total = 0;
             $('.product_row').map(function () {
                 cart_total = cart_total + Number($(this).children(':last').text());
             });
-            $('.cart_total').text(parseFloat(cart_total).toFixed(2));
+            $('.cart_total').text(cart_total);
         });
 
         $(document).on('click', '.purchaseButton', function () {
