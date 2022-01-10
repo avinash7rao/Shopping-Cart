@@ -8,4 +8,4 @@ It is a Shopping Cart project that I worked on while completing a coding bootcam
 * Javascript
 
 
-![homepage](https://user-images.githubusercontent.com/71743844/148708335-a2c30a1e-cc37-4d0e-af28-ba2623b04e87.png)
+![homepage](https://user-images.githubusercontent.com/71743844/148708727-6badbca4-8d45-4bd2-8bca-ba15f8eee586.png)
